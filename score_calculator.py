@@ -1,12 +1,12 @@
 print('Hello. Please input your score:')
 grade = int(input('>'))
 if grade >= 70:
-    print('Your grade is A.')
+    print('Grade: A')
 elif grade >= 60:
-    print('Your grade is B.')
+    print('Grade: B')
 elif grade >= 50:
-    print('Your grade is C.')
+    print('Grade: C')
 elif grade >= 40:
-    print('Your grade is D.')
+    print('Grade: D')
 else:
-    print('You have failed')
+    print('Fail')
